@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../index'); // Asegúrate de que apunta al archivo principal del servidor
+const app = require('../index');
 
 describe('API FutScript Tests', () => {
   // Test para GET /equipos

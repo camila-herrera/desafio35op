@@ -15,7 +15,7 @@ const authenticateToken = (req, res, next) => {
       return res.status(403).json({ error: 'Token inválido' });
     }
 
-    req.user = user; // Adjunta el usuario validado a la solicitud
+    req.user = user;
     next();
   });
 };
